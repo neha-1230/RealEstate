@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="real.css">
+    <link rel="stylesheet" href="respponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css" integrity="sha512-v8QQ0YQ3H4K6Ic3PJkym91KoeNT5S3PnDKvqnwqFD1oiqIl653crGZplPdU5KKtHjO0QKcQ2aUlQZYjHczkmGw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <title>RealEstate</title>
+</head>
+<body>
+
+    <!-- header section starts here -->
+    <header>
+        <div class="header_content">
+            <div class="head_col">
+                <div class="logo">
+                    <a href="#"><img src="images/real_logo.png" alt="logo"></a>
+                </div>
+            </div>
+            <div class="head_col">
+                <nav class="head_nav" id="navbar">
+                    <ul class="navlist">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Properties</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <button class="close" id="close_menu">
+                    <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </nav>
+                
+            </div>
+            <div class="head_col">
+                <button class="req_btn">Request a Quote</button>
+                <button class="open" id="open_menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- header section ends here -->
+
+
+    <!-- hero section starts here -->
+    <section class="main_section">
+        <div class="main_container">
+            <div class="main_text">
+                <h3>Find Your Dream Home With Ease!</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis atque qui totam! Id, officia delectus.</p>
+            </div>
+            <div class="search-box">
+                <div class="search-type">
+                    <button class="search_type_btn active">For Sale</button>
+                    <button class="search_type_btn">For Rent</button>
+                </div>
+                <form action="#">
+                    <fieldset>
+                        <label for="keyword">Keyword</label>
+                        <input type="text" placeholder="keyword" id="keyword" class="input-box">
+                    </fieldset>
+                    <fieldset>
+                        <label for="propertyType">Property Type</label>
+                        <select name="propertyType" id="propertyType" class="input-box">
+                            <option value="#">Property Type</option>
+                            <option value="Apartment">Apartment</option>
+                            <option value="Condominium">Condominium</option>
+                            <option value="Townhouse">Townhouse</option>
+                            <option value="Villa">Villa</option>
+                            <option value="Bangalow">Bangalow</option>
+                            <option value="Penthouse">Penthouse</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label for="location">Location</label>
+                        <input type="text" placeholder="location" id="location" class="input-box">
+                    </fieldset>
+                    <fieldset>
+                        <label for="location"></label>
+                        <button class="input-box-btn">Find My Home</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- hero section starts here -->
+
+
+    <!-- featured section starts here -->
+
+    <section class="featured">
+        <div class="featured_container">
+            <div class="title">
+                <h5>Featured Properties</h5>
+                <h1>Featured Properties Just For You!</h1>
+            </div>
+            <div class="featured_content">
+                <div class="featured_menu">
+                    <ul class="menu_list">
+                        <li><button class="active" data.tab="tab-1">View All</button></li>
+                        <li><button data.tab="tab-2">Apartment</button></li>
+                        <li><button data.tab="tab-3">Villa</button></li>
+                        <li><button data.tab="tab-4">Office</button></li>
+                        <li><button data.tab="tab-5">House</button></li>
+                    </ul>
+                    
+                </div>
+
+                <div class="featured_properties_container">
+                     <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/house1.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Mordern Family Home</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 3</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 3</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 1,150</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$657.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/house2.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Downtown Apartment</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/villa.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Luxury Villa</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 6</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 4</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 2,960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$1017.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/row.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Row House</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/farm.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Farm House</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/office.png" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Office</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/suburban.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Suburban House</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/office2.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Commercial Office</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/commercial.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Commercial Building</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div> 
+
+                    <div class="featured_tab" id="tab-1">
+                        <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/house1.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Mordern Family Home</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 3</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 3</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 1,150</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$657.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/house2.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Downtown Apartment</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/villa.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Luxury Villa</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 6</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 4</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 2,960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$1017.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/row.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Row House</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/farm.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Farm House</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/office.png" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Office</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/suburban.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Suburban House</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/office2.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Commercial Office</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/commercial.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Commercial Building</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    </div>
+                    
+                 <div class="featured_tab" id="tab-2">
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/house2.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Downtown Apartment</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/commercial.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Commercial Building</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                </div>
+                
+                 
+
+                <div class="featured_tab" id="tab-3  ">
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/villa.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Luxury Villa</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 6</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 4</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 2,960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$1017.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                </div>
+
+                <div class="featured_tab" id="tab-4">
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/office.png" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Office</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/office2.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Commercial Office</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                </div>
+                
+
+                <div class="featured_tab" id="tab-5">
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/house1.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Mordern Family Home</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 3</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 3</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 1,150</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$657.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/row.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Row House</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/farm.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Farm House</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/suburban.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Suburban House</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                </div>
+
+                 </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- featured  section ends here -->
+
+
+
+    <!-- Services  section starts here -->
+
+    <section class="services">
+        <div class="services_container">
+            <div class="title">
+                <h5>Our Services</h5>
+                <h1>What We Offer</h1>
+            </div>
+            <div class="services_content">
+                <div class="service_row">
+                    <div class="service_col">
+                        <img src="images/home.jpg" alt="">
+                    </div>
+                    <div class="service_col">
+                        <div class="service_text">
+                            <h4>Buy a New Home</h4>
+                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, soluta.</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facilis id assumenda atque quidem corporis enim. Quae ipsa unde, repellat explicabo in consequuntur laudantium, fugit assumenda rerum veritatis enim perferendis!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service_row">
+                    <div class="service_col">
+                        <img src="images/sale.jpg" alt="">
+                    </div>
+                    <div class="service_col">
+                        <div class="service_text">
+                            <h4>Sale a Home</h4>
+                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, soluta.</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facilis id assumenda atque quidem corporis enim. Quae ipsa unde, repellat explicabo in consequuntur laudantium, fugit assumenda rerum veritatis enim perferendis!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service_row">
+                    <div class="service_col">
+                        <img src="images/rent.jpg" alt="">
+                    </div>
+                    <div class="service_col">
+                        <div class="service_text">
+                            <h4>Rent a Home</h4>
+                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, soluta.</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facilis id assumenda atque quidem corporis enim. Quae ipsa unde, repellat explicabo in consequuntur laudantium, fugit assumenda rerum veritatis enim perferendis!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services  section ends here -->
+
+
+    <!-- Cities  section starts here -->
+
+    <section class="cities">
+        <div class="cities_container">
+            <div class="title">
+                <h5>Explore Cities</h5>
+                <h1>Discover The Best Location To Call Home</h1>
+            </div>
+            <div class="cities_content">
+                <div class="swiper citiesSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="cities_box">
+                                <div class="image">
+                                    <img src="images/mumbai.jpg" alt="">
+                                </div>
+                                <div class="cities_text">
+                                    <h4>Mumbai</h4>
+                                    <p>500 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cities_box">
+                                <div class="image">
+                                    <img src="images/nashik.jpg" alt="">
+                                </div>
+                                <div class="cities_text">
+                                    <h4>Nashik</h4>
+                                    <p>300 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cities_box">
+                                <div class="image">
+                                    <img src="images/pune.jpg" alt="">
+                                </div>
+                                <div class="cities_text">
+                                    <h4>Pune</h4>
+                                    <p>400 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cities_box">
+                                <div class="image">
+                                    <img src="images/ben.jpg" alt="">
+                                </div>
+                                <div class="cities_text">
+                                    <h4>Bengluru</h4>
+                                    <p>350 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cities_box">
+                                <div class="image">
+                                    <img src="images/chennai.jpg" alt="">
+                                </div>
+                                <div class="cities_text">
+                                    <h4>Chennai</h4>
+                                    <p>180 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cities_box">
+                                <div class="image">
+                                    <img src="images/hy.webp" alt="">
+                                </div>
+                                <div class="cities_text">
+                                    <h4>Hyderabad</h4>
+                                    <p>400 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cities_box">
+                                <div class="image">
+                                    <img src="images/nag.jpg" alt="">
+                                </div>
+                                <div class="cities_text">
+                                    <h4>Nagpur</h4>
+                                    <p>400 Properties</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cities  section ends here -->
+
+
+
+    <!-- Top-properties  section starts here -->
+
+    <section class="top">
+        <div class="top_container">
+            <div class="title">
+                <h5>Top Properties</h5>
+                <h1>Explore Our Top-Rated Lisiting</h1>
+            </div>
+            <div class="featured_content">
+                <div class="featured_properties_container">
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/house2.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Downtown Apartment</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/villa.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Luxury Villa</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 6</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 4</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 2,960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$1017.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/row.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Row House</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/suburban.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Suburban House</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/office2.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Commercial Office</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                    <div class="featured_properties_content">
+                    <div class="card">
+                        <img src="images/commercial.jpg" alt="">
+                    </div>
+                   
+                    <div class="card_content">
+                        <a href="#"><h3>Commercial Building</h3></a>
+                        <ul>
+                            <li><i class="fa-solid fa-bed"></i>Beds : 2</li>
+                            <li><i class="fa-solid fa-bath"></i>Baths : 2</li>
+                            <li><i class="fa-solid fa-expand"></i>Sqft : 960</li>
+                        </ul>
+                        <div class="cost">
+                            <h3>$417.00</h3>
+                        </div>
+                    </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top-properties  section ends here -->
+
+
+
+    <!-- About section starts here -->
+
+    <section class="about">
+        <div class="about_container">
+            <div class="title">
+                <h5>About Us</h5>
+                <h1>Your Trusted Partner in Real Estate</h1>
+            </div>
+            <div class="about_content">
+                <div class="about_column">
+                    <div class="about-img">
+                        <img src="images/about1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="about_column">
+                    <div class="about-text">
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita saepe libero voluptatibus voluptas fugit exercitationem tempora deleniti, iusto repellat sunt, quaerat cupiditate at id inventore cumque possimus unde aliquid, tenetur iste explicabo. Architecto optio distinctio blanditiis? Doloremque, cum fuga.</p> 
+                        <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim delectus provident voluptates non quisquam ea tenetur libero facere recusandae!</p>
+                        <blockquote>"Your Home, Your Future, Our Commitment."</blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section ends here -->
+
+
+
+
+    <!-- Testimonial section starts here -->
+
+    <section class="testimonial">
+        <div class="testimonial_container">
+            <div class="title">
+                <h5>Our Testimonials</h5>
+                <h1>What Our Client Says</h1>
+            </div>
+            <div class="testimonial_content">
+                 <div class="swiper testSwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial_box">
+                            <div class="first">
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                            <div class="second">
+                                <h5>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, veritatis."</h5>
+                            </div>
+                            <div class="third">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="images/user1.jpg" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <h5>Rajesh Varma</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial_box">
+                            <div class="first">
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                            <div class="second">
+                                <h5>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, veritatis."</h5>
+                            </div>
+                            <div class="third">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="images/user2.jpg" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <h5>Nitin Shah</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial_box">
+                            <div class="first">
+                                <i class="fa-solid fa-quote-right"></i>
+                            </div>
+                            <div class="second">
+                                <h5>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, veritatis."</h5>
+                            </div>
+                            <div class="third">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="images/user3.jpg" alt="">
+                                    </div>
+                                    <div class="col">
+                                        <h5>Raj Deshmukh</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial section ends here -->
+
+
+
+
+    <!-- Contact section starts here -->
+
+    <section class="contact">
+        <div class="contact_container">
+            <div class="contact_col">
+                <div class="title">
+                    <h5>Contact Us</h5>
+                    <h1>Get In Touch With Us Today!</h1>
+                </div>
+                <div class="contact_form">
+                    <form action="#">
+                        <fieldset>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="Enter your name..">
+                        </fieldset>
+                        <fieldset>
+                            <label for="email">Email</label>
+                            <input type="text" name="email" placeholder="Enter your email..">
+                        </fieldset>
+                        <fieldset>
+                            <label for="phone">Phone</label>
+                            <input type="text" name="phone" placeholder="Enter your phone number..">
+                        </fieldset>
+                        <fieldset>
+                            <label for="message">Message</label>
+                            <textarea name="message" placeholder="Enter your message.."></textarea>
+                        </fieldset>
+                        <button type="submit" class="contact_btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="contact_col">
+                <div class="title">
+                    <h5>More Info</h5>
+                    <h1>Additional Info About Us</h1>
+                </div>
+                <div class="contact_info">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="conatct_data">
+                                <h5>+91 8976545434</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="conatct_data">
+                                <h5>realestate@gmail.com</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="conatct_data">
+                                <h5>123, abc nagar , mumbai - 412 567</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229376.55246094102!2d72.71412823032124!3d19.082482211550335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1751025162529!5m2!1sen!2sin" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section ends here -->
+
+
+
+    <!-- our team section starts here -->
+
+    <section class="team">
+        <div class="team_container">
+            <div class="title">
+                <h5>Our Team</h5>
+                <h1>Meet The Experts Behind Your Real Estate Journey</h1>
+            </div>
+            <div class="team_content">
+                <div class="row">
+                    <div class="col">
+                        <img src="images/t1.jpg" alt="">
+                        <div class="text-box">
+                            <h4>Parth Varekar</h4>
+                            <p>Founder & Real Estate Specialist</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/t2.jpg" alt="">
+                        <div class="text-box">
+                            <h4>Snehal Joshi</h4>
+                            <p>Client Relations Manager</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/t3.avif" alt="">
+                        <div class="text-box">
+                            <h4>Dipak Jadhav</h4>
+                            <p>Property Consultant</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/t4.avif" alt="">
+                        <div class="text-box">
+                            <h4>Prachi Kanekar</h4>
+                            <p>Marketing Experts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our team  section ends here -->
+
+
+
+    <!-- Brands  section starts here -->
+
+    <section class="brand">
+        <div class="brand_container">
+            <div class="title">
+                <h1>Trusted By Over 150+ Major Companies</h1>
+            </div>
+            <div class="brand_content">
+                 <div class="swiper brandSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="brand_img">
+                                <img src="images/b1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand_img">
+                                <img src="images/b2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand_img">
+                                <img src="images/b3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand_img">
+                                <img src="images/b4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand_img">
+                                <img src="images/b5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand_img">
+                                <img src="images/b6.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Brands  section ends here -->
+
+
+
+    <!-- footer section starts here -->
+
+    <footer>
+        <div class="footer_section">
+            <nav class="footer_nav">
+                 <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Properties</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                 </ul>
+            </nav>
+            <div class="copyright">
+                <p>2025 &copy; All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends here -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/fontawesome.min.js" integrity="sha512-j12pXc2gXZL/JZw5Mhi6LC7lkiXL0e2h+9ZWpqhniz0DkDrO01VNlBrG3LkPBn6DgG2b8CDjzJT+lxfocsS1Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="real.js"></script>
+    
+</body>
+</html>
